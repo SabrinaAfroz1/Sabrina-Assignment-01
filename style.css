@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.top h1{
+    font-size: 60px;
+    margin-left: 8px;
+}
+#border{
+border-left: 5px solid tomato;
+    border-radius: 5px ;
+}
+section{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.half-width img{
+    width: 70%;
+}
+.half-width{
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.box{
+    
+    width:35%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 12px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+}
+.box img{
+    width: 40%;
+}
+footer{
+    height: 120px;
+    background-color: black;
+}
