@@ -1,39 +1,93 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .top h1{
     font-size: 60px;
     margin-left: 8px;
+    font-family: 'Yeseva One', cursive;   
 }
-#border{
-border-left: 5px solid tomato;
+p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#top-border{
+border-left: 5px solid #FF5959;
     border-radius: 5px ;
+    padding: 0;
 }
 section{
     display: flex;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
 }
+.bg-button{
+    text-decoration: none;
+    padding: 12px;
+    width: 2px;
+    height: 48px;
+    background: #FF5959;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
 .half-width img{
-    width: 70%;
+    width: 75%;
+    margin-left: 40px;
 }
 .half-width{
     width: 50%;
     margin-top: 50px;
     margin-bottom: 20px;
 }
+.centerh1{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
 .box{
     
-    width:35%;
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-left: 12px;
-    box-shadow: 10px 10px 30px gray;
-    border-radius: 10px;
+    width:45%;
+    margin-right: 15px;
+    border-radius: 26px;
+    text-align: justify;
+    padding: 10px 20px;
 }
 .box img{
     width: 40%;
 }
+#mission-box{
+    background: rgba(79, 157, 166, 0.1);
+}
+#vission-box{
+    background: rgba(255, 89, 89, 0.1);
+    
+}
+#goal-box{
+    background: rgba(255, 89, 89, 0.1);
+    background: #FFF4D6;
+}
+.half-left{
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: justify;
+    padding-right: 50px;
+    
+}
+
+.half-right{
+
+ float: right;
+ margin-top: 50px;
+ margin-bottom: 20px;
+ text-align: justify;
+ padding-left: 20px;
+ 
+}
+
 footer{
     height: 120px;
     background-color: black;
